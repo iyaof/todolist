@@ -12,14 +12,14 @@
 <body>
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
-          <a class="navbar-brand" href="index.html"><img src="assets/logo.png" alt="Logo"></a>
+          <a class="navbar-brand" href="index.html"><img src="assets/logo.png" id="logo" alt="Logo"></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="cadastrar.html">Criar tarefa</a>
+                <a class="nav-link active" aria-current="page" href="cadastrar.html">Criar tarefa</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link disabled" aria-disabled="true">|</a>
@@ -31,5 +31,13 @@
           </div>
         </div>
       </nav>
+      <div class="container">
+        <form action="lista.html" method="get">
+            <label for="task">Tarefa:</label>
+            <input type="text" placeholder="Ex: Estudar Inglês">
+            <button type="reset" class="btn btn-danger">Cancelar</button>
+            <button type="submit" class="btn btn-success">Salvar</button>
+        </form>
+      </div>
 </body>
 </html>

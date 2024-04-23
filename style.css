@@ -7,9 +7,24 @@ body{
     color: black;
 }
 
-img{
+#logo{
     max-width:50px;
     max-height:50px;
+    width: auto;
+    height: auto;
+}
+
+.tutorial{
+    max-width: 500px;
+    max-height: 500px;
+    width: auto;
+    height: auto;
+}
+
+.container{
+    padding: 50px;
+    max-width: 600px;
+    max-height: 550px;
     width: auto;
     height: auto;
 }
